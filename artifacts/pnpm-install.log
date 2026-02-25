@@ -2,7 +2,7 @@ Lockfile is up to date, resolution step is skipped
 Already up to date
 
 
-> persiantoolbox@2.0.2 prepare /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 prepare /workspace/persiantoolbox
 > husky install
 
 husky - Git hooks installed

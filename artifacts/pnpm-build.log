@@ -1,9 +1,9 @@
 
-> persiantoolbox@2.0.2 build /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 build /workspace/persiantoolbox
 > pnpm generate:og && next build
 
 
-> persiantoolbox@2.0.2 generate:og /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 generate:og /workspace/persiantoolbox
 > node scripts/generate-og-images.mjs
 
 Generated 9 opengraph images.

@@ -1,6 +1,6 @@
 Scanning dir .
 Starting filesystem walk for root: /
-Scanned /workspace/asdev-persiantoolbox/pnpm-lock.yaml file and found 1501 packages
+Scanned /workspace/persiantoolbox/pnpm-lock.yaml file and found 1501 packages
 End status: 26 dirs visited, 68 inodes visited, 1 Extract calls, 82.739336ms elapsed, 82.739795ms wall time
 Total 7 packages affected by 7 known vulnerabilities (0 Critical, 1 High, 5 Medium, 1 Low, 0 Unknown) from 1 ecosystem.
 5 vulnerabilities can be fixed.

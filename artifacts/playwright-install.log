@@ -73,9 +73,9 @@ Playwright Host validation warning:
 ║                                                      ║
 ║ <3 Playwright Team                                   ║
 ╚══════════════════════════════════════════════════════╝
-    at validateDependenciesLinux (/workspace/asdev-persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/server/registry/dependencies.js:269:9)
+    at validateDependenciesLinux (/workspace/persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/server/registry/dependencies.js:269:9)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async Registry._validateHostRequirements (/workspace/asdev-persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/server/registry/index.js:991:14)
-    at async Registry._validateHostRequirementsForExecutableIfNeeded (/workspace/asdev-persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/server/registry/index.js:1113:7)
-    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/workspace/asdev-persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/server/registry/index.js:1102:7)
-    at async i.<anonymous> (/workspace/asdev-persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/cli/program.js:174:7)
+    at async Registry._validateHostRequirements (/workspace/persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/server/registry/index.js:991:14)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/workspace/persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/server/registry/index.js:1113:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/workspace/persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/server/registry/index.js:1102:7)
+    at async i.<anonymous> (/workspace/persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core/lib/cli/program.js:174:7)
