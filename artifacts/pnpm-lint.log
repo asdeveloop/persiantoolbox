@@ -1,4 +1,4 @@
 
-> persiantoolbox@2.0.2 lint /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 lint /workspace/persiantoolbox
 > eslint . --ext .ts,.tsx
 

@@ -1,10 +1,10 @@
 
-> persiantoolbox@2.0.2 test /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 test /workspace/persiantoolbox
 > vitest "--run"
 
 [33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
 
- RUN  v1.6.1 /workspace/asdev-persiantoolbox
+ RUN  v1.6.1 /workspace/persiantoolbox
 
  ✓ features/salary/salary.logic.test.ts  (6 tests) 13ms
  ✓ features/date-tools/date-tools.logic.test.ts  (14 tests) 16ms

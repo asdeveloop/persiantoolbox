@@ -1,59 +1,59 @@
 
-> persiantoolbox@2.0.2 ci:contracts /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 ci:contracts /workspace/persiantoolbox
 > pnpm monetization:review:validate && pnpm monetization:ops:validate && pnpm monetization:alerting:validate && pnpm monetization:site-settings:validate && pnpm deploy:readiness:validate && pnpm release:rc:validate && pnpm release:rollback:validate && pnpm release:launch:validate && pnpm release:state:validate && pnpm pwa:sw:validate && pnpm licensing:validate
 
 
-> persiantoolbox@2.0.2 monetization:review:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 monetization:review:validate /workspace/persiantoolbox
 > node scripts/monetization/validate-review-backlog.mjs
 
 [monetization] review backlog contract valid (3 items)
 
-> persiantoolbox@2.0.2 monetization:ops:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 monetization:ops:validate /workspace/persiantoolbox
 > node scripts/monetization/validate-operations-checklist.mjs
 
 [monetization] operations checklist contract valid (2 monthly, 2 quarterly)
 
-> persiantoolbox@2.0.2 monetization:alerting:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 monetization:alerting:validate /workspace/persiantoolbox
 > node scripts/monetization/validate-alerting-decision-rules.mjs
 
 [monetization] alerting decision rules contract valid (5 KPI mappings)
 
-> persiantoolbox@2.0.2 monetization:site-settings:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 monetization:site-settings:validate /workspace/persiantoolbox
 > node scripts/monetization/validate-site-settings-contract.mjs
 
 [monetization] site settings contract valid (4 keys)
 
-> persiantoolbox@2.0.2 deploy:readiness:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 deploy:readiness:validate /workspace/persiantoolbox
 > node scripts/deploy/validate-readiness-gates.mjs
 
 [deploy] readiness gates contract valid (3 quality gates, 2 security gates)
 
-> persiantoolbox@2.0.2 release:rc:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 release:rc:validate /workspace/persiantoolbox
 > node scripts/release/validate-rc-checklist.mjs
 
 [release] rc checklist contract valid (4 quality gates)
 
-> persiantoolbox@2.0.2 release:rollback:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 release:rollback:validate /workspace/persiantoolbox
 > node scripts/release/validate-rollback-drill.mjs
 
 [release] rollback drill contract valid (3 drills)
 
-> persiantoolbox@2.0.2 release:launch:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 release:launch:validate /workspace/persiantoolbox
 > node scripts/release/validate-launch-day-checklist.mjs
 
 [release] launch day checklist contract valid (3 smoke suites)
 
-> persiantoolbox@2.0.2 release:state:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 release:state:validate /workspace/persiantoolbox
 > node scripts/release/validate-release-state-consistency.mjs
 
 [release] state consistency valid (train=v3, stage=published, status=done)
 
-> persiantoolbox@2.0.2 pwa:sw:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 pwa:sw:validate /workspace/persiantoolbox
 > node scripts/pwa/validate-sw-version.mjs
 
 [pwa] CACHE_VERSION is valid: v9-2026-02-16
 
-> persiantoolbox@2.0.2 licensing:validate /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 licensing:validate /workspace/persiantoolbox
 > node scripts/licensing/validate-license-assets.mjs && node scripts/licensing/validate-license-consistency.mjs
 
 [licensing] assets validated (16 files), package license is valid for version 2.0.2

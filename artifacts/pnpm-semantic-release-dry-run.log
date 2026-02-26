@@ -1,5 +1,5 @@
 
-> persiantoolbox@2.0.2 release /workspace/asdev-persiantoolbox
+> persiantoolbox@2.0.2 release /workspace/persiantoolbox
 > semantic-release "--dry-run"
 
 [7:09:30 AM] [semantic-release] › ℹ  Running semantic-release version 23.1.1
