@@ -1,8 +1,0 @@
-HTTP/1.1 301 Moved Permanently
-server: envoy
-date: Wed, 18 Feb 2026 07:05:14 GMT
-content-type: text/html
-content-length: 178
-location: https://persiantoolbox.ir/
-x-envoy-upstream-service-time: 576
-

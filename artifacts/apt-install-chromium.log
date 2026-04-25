@@ -1,92 +1,0 @@
-Reading package lists...
-Building dependency tree...
-Reading state information...
-The following additional packages will be installed:
-  apparmor dbus-user-session fuse3 libfuse3-3 liblzo2-2 snapd squashfs-tools
-  systemd-hwe-hwdb udev
-Suggested packages:
-  apparmor-profiles-extra apparmor-utils zenity | kdialog
-The following NEW packages will be installed:
-  apparmor chromium-browser dbus-user-session fuse3 libfuse3-3 liblzo2-2 snapd
-  squashfs-tools systemd-hwe-hwdb udev
-0 upgraded, 10 newly installed, 0 to remove and 63 not upgraded.
-Need to get 37.5 MB of archives.
-After this operation, 144 MB of additional disk space will be used.
-Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 apparmor amd64 4.0.1really4.0.1-0ubuntu0.24.04.5 [638 kB]
-Get:2 http://archive.ubuntu.com/ubuntu noble/main amd64 libfuse3-3 amd64 3.14.0-5build1 [83.1 kB]
-Get:3 http://archive.ubuntu.com/ubuntu noble/main amd64 fuse3 amd64 3.14.0-5build1 [25.2 kB]
-Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 liblzo2-2 amd64 2.10-2build4 [54.1 kB]
-Get:5 http://archive.ubuntu.com/ubuntu noble/main amd64 squashfs-tools amd64 1:4.6.1-1build1 [189 kB]
-Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 udev amd64 255.4-1ubuntu8.12 [1874 kB]
-Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 dbus-user-session amd64 1.14.10-4ubuntu4.1 [9968 B]
-Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 snapd amd64 2.73+ubuntu24.04 [34.6 MB]
-Get:9 http://archive.ubuntu.com/ubuntu noble/universe amd64 chromium-browser amd64 2:1snap1-0ubuntu2 [50.0 kB]
-Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-hwe-hwdb all 255.1.7 [3716 B]
-debconf: delaying package configuration, since apt-utils is not installed
-Fetched 37.5 MB in 5s (7514 kB/s)
-Selecting previously unselected package apparmor.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33650 files and directories currently installed.)
-Preparing to unpack .../0-apparmor_4.0.1really4.0.1-0ubuntu0.24.04.5_amd64.deb ...
-Unpacking apparmor (4.0.1really4.0.1-0ubuntu0.24.04.5) ...
-Selecting previously unselected package libfuse3-3:amd64.
-Preparing to unpack .../1-libfuse3-3_3.14.0-5build1_amd64.deb ...
-Unpacking libfuse3-3:amd64 (3.14.0-5build1) ...
-Selecting previously unselected package fuse3.
-Preparing to unpack .../2-fuse3_3.14.0-5build1_amd64.deb ...
-Unpacking fuse3 (3.14.0-5build1) ...
-Selecting previously unselected package liblzo2-2:amd64.
-Preparing to unpack .../3-liblzo2-2_2.10-2build4_amd64.deb ...
-Unpacking liblzo2-2:amd64 (2.10-2build4) ...
-Selecting previously unselected package squashfs-tools.
-Preparing to unpack .../4-squashfs-tools_1%3a4.6.1-1build1_amd64.deb ...
-Unpacking squashfs-tools (1:4.6.1-1build1) ...
-Selecting previously unselected package udev.
-Preparing to unpack .../5-udev_255.4-1ubuntu8.12_amd64.deb ...
-Unpacking udev (255.4-1ubuntu8.12) ...
-Selecting previously unselected package dbus-user-session.
-Preparing to unpack .../6-dbus-user-session_1.14.10-4ubuntu4.1_amd64.deb ...
-Unpacking dbus-user-session (1.14.10-4ubuntu4.1) ...
-Selecting previously unselected package snapd.
-Preparing to unpack .../7-snapd_2.73+ubuntu24.04_amd64.deb ...
-Unpacking snapd (2.73+ubuntu24.04) ...
-Setting up apparmor (4.0.1really4.0.1-0ubuntu0.24.04.5) ...
-Created symlink /etc/systemd/system/sysinit.target.wants/apparmor.service → /usr/lib/systemd/system/apparmor.service.
-Setting up libfuse3-3:amd64 (3.14.0-5build1) ...
-Setting up fuse3 (3.14.0-5build1) ...
-Setting up liblzo2-2:amd64 (2.10-2build4) ...
-Setting up squashfs-tools (1:4.6.1-1build1) ...
-Setting up udev (255.4-1ubuntu8.12) ...
-Creating group 'input' with GID 996.
-Creating group 'sgx' with GID 995.
-Creating group 'kvm' with GID 994.
-Creating group 'render' with GID 993.
-Setting up dbus-user-session (1.14.10-4ubuntu4.1) ...
-Setting up snapd (2.73+ubuntu24.04) ...
-Created symlink /etc/systemd/system/multi-user.target.wants/snapd.apparmor.service → /usr/lib/systemd/system/snapd.apparmor.service.
-Created symlink /etc/systemd/system/multi-user.target.wants/snapd.autoimport.service → /usr/lib/systemd/system/snapd.autoimport.service.
-Created symlink /etc/systemd/system/multi-user.target.wants/snapd.core-fixup.service → /usr/lib/systemd/system/snapd.core-fixup.service.
-Created symlink /etc/systemd/system/multi-user.target.wants/snapd.recovery-chooser-trigger.service → /usr/lib/systemd/system/snapd.recovery-chooser-trigger.service.
-Created symlink /etc/systemd/system/multi-user.target.wants/snapd.seeded.service → /usr/lib/systemd/system/snapd.seeded.service.
-Created symlink /etc/systemd/system/cloud-final.service.wants/snapd.seeded.service → /usr/lib/systemd/system/snapd.seeded.service.
-Unit /usr/lib/systemd/system/snapd.seeded.service is added as a dependency to a non-existent unit cloud-final.service.
-Created symlink /etc/systemd/system/multi-user.target.wants/snapd.service → /usr/lib/systemd/system/snapd.service.
-Created symlink /etc/systemd/system/timers.target.wants/snapd.snap-repair.timer → /usr/lib/systemd/system/snapd.snap-repair.timer.
-Created symlink /etc/systemd/system/sockets.target.wants/snapd.socket → /usr/lib/systemd/system/snapd.socket.
-Created symlink /etc/systemd/system/final.target.wants/snapd.system-shutdown.service → /usr/lib/systemd/system/snapd.system-shutdown.service.
-Selecting previously unselected package chromium-browser.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 34247 files and directories currently installed.)
-Preparing to unpack .../chromium-browser_2%3a1snap1-0ubuntu2_amd64.deb ...
-=> Installing the chromium snap
-==> Checking connectivity with the snap store
-===> System doesn't have a working snapd, skipping
-Unpacking chromium-browser (2:1snap1-0ubuntu2) ...
-Selecting previously unselected package systemd-hwe-hwdb.
-Preparing to unpack .../systemd-hwe-hwdb_255.1.7_all.deb ...
-Unpacking systemd-hwe-hwdb (255.1.7) ...
-Setting up systemd-hwe-hwdb (255.1.7) ...
-Setting up chromium-browser (2:1snap1-0ubuntu2) ...
-update-alternatives: using /usr/bin/chromium-browser to provide /usr/bin/x-www-browser (x-www-browser) in auto mode
-update-alternatives: using /usr/bin/chromium-browser to provide /usr/bin/gnome-www-browser (gnome-www-browser) in auto mode
-Processing triggers for dbus (1.14.10-4ubuntu4.1) ...
-Processing triggers for udev (255.4-1ubuntu8.12) ...
-Processing triggers for libc-bin (2.39-0ubuntu8.6) ...

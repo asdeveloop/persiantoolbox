@@ -1,9 +1,0 @@
-
-Playwright version: 1.58.1
-  Browsers:
-    /root/.cache/ms-playwright/chromium-1208
-    /root/.cache/ms-playwright/chromium_headless_shell-1208
-    /root/.cache/ms-playwright/ffmpeg-1011
-    /root/.cache/ms-playwright/firefox-1509
-  References:
-    /workspace/persiantoolbox/node_modules/.pnpm/playwright-core@1.58.1/node_modules/playwright-core
